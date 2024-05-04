@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+body{
+    font-family: "Reddit Sans Condensed", sans-serif; 
+    background: #FEF5E7;
+}
+
+h1{
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    color: #AF7AC5;
+}
+
+.contenedorGeneral{
+    padding: auto;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+p{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 3rem;
+}
+
+.lista{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.lista li{
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.ejemplo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12rem;
+    width: 50rem;
+    height: 90px;
+    gap: 2rem;
+}
+
+.diseño1,
+.diseño2,
+.diseño3 {
+    width: calc(33.33% - 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    padding: 0; 
+}
+
+.diseño1 ul,
+.diseño2 ul,
+.diseño3 ul {
+    margin: 0; 
+    padding: 0; 
+}
+
+.diseño1 { background: #F5CBA7; }
+.diseño2 { background: #A3E4D7; }
+.diseño3 { background: #F5B7B1; }

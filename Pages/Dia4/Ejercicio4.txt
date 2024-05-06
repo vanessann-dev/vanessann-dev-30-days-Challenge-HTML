@@ -1,0 +1,2 @@
+Valida el código HTML de tus ejemplos anteriores (y los siguientes a partir de ahora)
+Nota: Se utiliza W3C Validator aparentemente no hay nada por corregir por ahora
